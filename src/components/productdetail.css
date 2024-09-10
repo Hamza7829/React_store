@@ -1,0 +1,73 @@
+/* Container styling for Product Detail */
+
+
+/* Product detail card */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image styling */
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styles */
+.btn-primary,
+.btn-success {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+/* Ensures proper layout and responsiveness */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .btn-primary,
+  .btn-success {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .mt-5 h3 {
+    font-size: 22px;
+  }
+}
